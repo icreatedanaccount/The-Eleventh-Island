@@ -96,6 +96,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 419805791}
   - 114: {fileID: 419805790}
+  - 114: {fileID: 419805793}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -115,8 +116,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CellPrefab: {fileID: 400000, guid: d03e46e76b5b2534899bc5f615183f95, type: 2}
-  GridSize: {x: 20, y: 20, z: 20}
-  Directions: []
+  GridSize: {x: 10, y: 20, z: 10}
+  Directions:
+  - {x: 1, y: 0, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: -1}
 --- !u!4 &419805791
 Transform:
   m_ObjectHideFlags: 0
@@ -129,6 +134,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &419805793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 419805789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c83385cf1c7a548adfff88b4d9fb7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position: {x: 0, y: 0, z: 0}
+  IsOpened: 0
 --- !u!1 &587093658
 GameObject:
   m_ObjectHideFlags: 0

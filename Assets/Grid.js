@@ -31,8 +31,7 @@ function CreateGrid(){
 			newCell.parent = transform;
 			
 			var newCellScript : CellScript = newCell.GetComponent("CellScript");
-
-			
+			newCellScript.Position = Vector3(ix,0,iz);
 			
 			GridArr[ix,iz] = newCell;
 		}
@@ -42,7 +41,7 @@ function SetStart(x : int, z : int){
 	AddToSet(GridArr[x,z]);
 }
 function AddToSet(toAdd : Transform){
-	toAdd.GetComponent.<Renderer>().material.color = Color.blue;
+	toAdd.GetComponent.<Renderer>().material.color = Color.gray;
 	var taScript : CellScript = toAdd.GetComponent("CellScript");
 	taScript.IsOpened = true;
 	Set.Unshift(toAdd);
