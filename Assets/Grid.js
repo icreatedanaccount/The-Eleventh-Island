@@ -13,6 +13,8 @@ public var CompletedSet = new Array();
 function Start () {
 	CreateGrid();
 	SetStart(0,0);
+	GenerateMaze();
+	ClearWallEntranceAndExit(GridArr[0,5]);
 }
 
 function CreateGrid(){ 
@@ -46,12 +48,21 @@ function AddToSet(toAdd : Transform){
 	taScript.IsOpened = true;
 	Set.Unshift(toAdd);
 }
+
+function GenerateMaze(){ 
+	Debug.Log("Maze generation in progress...");
+	while(Set.length)
+	{
+
+		FindNext();
+	}
+}
+
 var Directions : Vector3[]; //*
 function FindNext(){
 
 	if(Set.length == 0){
-		Debug.Log("We're done.");
-		return;
+		Debug.Log("Maze generation done.");
 	}  
 	
 	var previous : Transform = Set[0]; 
@@ -95,7 +106,8 @@ function FindNext(){
 	
 	ClearWalls(previous, next);
 	
-	yield WaitForEndOfFrame(); 
+	yield WaitForEndOfFrame();
+	
 }
  
 function DrawDebugLines(lines :int, p : Transform, n : Transform)
@@ -116,10 +128,18 @@ function ClearWalls(p : Transform, n : Transform)
 }
 
 
+function ClearWallEntranceAndExit(p : Transform) 
+{
+	var hitInfo : RaycastHit[]; 
+	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(-1,0,0), 1);
+	for(var i : int = 0; i < hitInfo.length; i++) {
+		Destroy(hitInfo[i].transform.gameObject);
+	}
+
+	
+}
+
 
 function Update () {
-	if (Input.GetKeyDown (KeyCode.Tab) || Input.GetKey (KeyCode.Space)) {
-			FindNext ();
-	}
 
 }

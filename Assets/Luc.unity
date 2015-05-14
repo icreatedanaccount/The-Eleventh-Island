@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CellPrefab: {fileID: 400000, guid: d03e46e76b5b2534899bc5f615183f95, type: 2}
-  GridSize: {x: 10, y: 20, z: 10}
+  GridSize: {x: 11, y: 20, z: 11}
   Directions:
   - {x: 1, y: 0, z: 0}
   - {x: -1, y: 0, z: 0}
