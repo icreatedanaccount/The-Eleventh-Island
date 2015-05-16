@@ -178,11 +178,11 @@ Material:
       data:
         first:
           name: _FresnelScale
-        second: .657142818
+        second: .779999971
       data:
         first:
           name: _GerstnerIntensity
-        second: 1.67142856
+        second: 1.70000005
       data:
         first:
           name: _HeightDisplacement
@@ -254,6 +254,14 @@ Material:
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
+          name: _Displacement
+        second: {r: 6.6371665, g: 20.3539829, b: -1, a: -.681415975}
+      data:
+        first:
+          name: _ShoreTiling
+        second: {r: 1, g: 1, b: .100000001, a: .100000001}
+      data:
+        first:
           name: _BumpMap_ST
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
@@ -291,19 +299,19 @@ Material:
       data:
         first:
           name: _WaveScale4
-        second: {r: 0, g: 0, b: 0, a: 0}
+        second: {r: .100000001, g: .100000001, b: .00999999978, a: .00999999978}
       data:
         first:
           name: _WaveOffset
-        second: {r: -0, g: -0, b: -0, a: -0}
+        second: {r: 1, g: 1, b: -.00999999978, a: -.00999999978}
       data:
         first:
           name: _DistortParams
-        second: {r: 1.43999994, g: .242857143, b: 1.85306406, a: -.531428456}
+        second: {r: 1.43999994, g: .242857143, b: 1.72000003, a: -1.20000005}
       data:
         first:
           name: _InvFadeParemeter
-        second: {r: .218965515, g: .159448281, b: .043103449, a: 0}
+        second: {r: .159999996, g: .119999997, b: .043103449, a: 0}
       data:
         first:
           name: _AnimationTiling
@@ -335,15 +343,15 @@ Material:
       data:
         first:
           name: _WorldLightDir
-        second: {r: -.0303751379, g: -.201390788, b: -.979039967, a: 0}
+        second: {r: -.0303751379, g: -.201390833, b: -.979039967, a: 0}
       data:
         first:
           name: _Foam
-        second: {r: .426666677, g: .486666679, b: 0, a: 0}
+        second: {r: .433999985, g: .486666679, b: 0, a: 0}
       data:
         first:
           name: _GAmplitude
-        second: {r: 1, g: 1.27999997, b: .49000001, a: .560000002}
+        second: {r: .140000001, g: .75999999, b: .174999997, a: .224999994}
       data:
         first:
           name: _GFrequency
@@ -364,14 +372,6 @@ Material:
         first:
           name: _GDirectionCD
         second: {r: .70338881, g: -.679999888, b: .717573524, a: -.200000003}
-      data:
-        first:
-          name: _Displacement
-        second: {r: 6.6371665, g: 20.3539829, b: -1, a: -.681415975}
-      data:
-        first:
-          name: _ShoreTiling
-        second: {r: 1, g: 1, b: .100000001, a: .100000001}
       data:
         first:
           name: _DepthColor

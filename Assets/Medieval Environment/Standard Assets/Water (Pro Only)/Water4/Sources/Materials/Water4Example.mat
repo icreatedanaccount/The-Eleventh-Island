@@ -79,6 +79,13 @@ Material:
           m_Offset: {x: 1, y: 1}
       data:
         first:
+          name: _WavesTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _DisplacementHeightMap
         second:
           m_Texture: {fileID: 2800000, guid: a782b26d6436b48d9882906b9f8ca31a, type: 2}
@@ -96,13 +103,6 @@ Material:
           name: _ThirdDisplacementHeightMap
         second:
           m_Texture: {fileID: 2800000, guid: dc30b984e8e3c4cdfb38d5fceb411602, type: 2}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _WavesTex
-        second:
-          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -178,11 +178,11 @@ Material:
       data:
         first:
           name: _FresnelScale
-        second: .657142818
+        second: .870000005
       data:
         first:
           name: _GerstnerIntensity
-        second: 1.67142856
+        second: .0700000003
       data:
         first:
           name: _HeightDisplacement
@@ -254,15 +254,23 @@ Material:
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
+          name: _BumpMap_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _Displacement
+        second: {r: 6.6371665, g: 20.3539829, b: -1, a: -.681415975}
+      data:
+        first:
+          name: _ShoreTiling
+        second: {r: 1, g: 1, b: .100000001, a: .100000001}
+      data:
+        first:
           name: _RefrColor
         second: {r: .523390472, g: .947761178, b: .912149608, a: 1}
       data:
         first:
           name: _Fresnel_ST
-        second: {r: 1, g: 1, b: 0, a: 0}
-      data:
-        first:
-          name: _BumpMap_ST
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
@@ -290,12 +298,20 @@ Material:
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
+          name: _WaveScale4
+        second: {r: .100000001, g: .100000001, b: .00999999978, a: .00999999978}
+      data:
+        first:
+          name: _WaveOffset
+        second: {r: 1, g: 1, b: -.00999999978, a: -.00999999978}
+      data:
+        first:
           name: _DistortParams
-        second: {r: 1.43999994, g: .242857143, b: 1.85306406, a: -.531428456}
+        second: {r: -.949999988, g: .5, b: 1.77999997, a: -.531428456}
       data:
         first:
           name: _InvFadeParemeter
-        second: {r: .218965515, g: .159448281, b: .043103449, a: 0}
+        second: {r: .159999996, g: .159448281, b: .043103449, a: 0}
       data:
         first:
           name: _AnimationTiling
@@ -327,11 +343,11 @@ Material:
       data:
         first:
           name: _WorldLightDir
-        second: {r: -.0303751379, g: -.201390833, b: -.979039967, a: 0}
+        second: {r: -.0237103738, g: -.201390848, b: -.979224205, a: 0}
       data:
         first:
           name: _Foam
-        second: {r: .426666677, g: .486666679, b: 0, a: 0}
+        second: {r: .563000023, g: 1, b: 0, a: 0}
       data:
         first:
           name: _GAmplitude
@@ -358,28 +374,12 @@ Material:
         second: {r: .70338881, g: -.679999888, b: .717573524, a: -.200000003}
       data:
         first:
-          name: _Displacement
-        second: {r: 6.6371665, g: 20.3539829, b: -1, a: -.681415975}
-      data:
-        first:
-          name: _ShoreTiling
-        second: {r: 1, g: 1, b: .100000001, a: .100000001}
-      data:
-        first:
           name: _DepthColor
         second: {r: .0275116973, g: .141791046, b: .132267773, a: .4627451}
       data:
         first:
           name: _RefractionFog
         second: {r: .505434752, g: .505434752, b: .505434752, a: .5}
-      data:
-        first:
-          name: _WaveOffset
-        second: {r: 1, g: 1, b: -.00999999978, a: -.00999999978}
-      data:
-        first:
-          name: _WaveScale4
-        second: {r: .100000001, g: .100000001, b: .00999999978, a: .00999999978}
       data:
         first:
           name: _DisplacementXz
