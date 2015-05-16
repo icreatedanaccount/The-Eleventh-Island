@@ -10,6 +10,10 @@ public var GridArr : Transform[,];
 public var Set = new Array();
 public var CompletedSet = new Array();
 
+public var GridPositionX : int;
+public var GridPositionY : int;
+public var GridPositionZ : int;
+
 function Start () {
 	CreateGrid();
 	SetStart(0,0);
@@ -28,7 +32,7 @@ function CreateGrid(){
 		for(var iz = 0; iz < GridSize.z; iz++)
 		{
 			var newCell : Transform = 
-			 Instantiate(CellPrefab, Vector3(ix,0,iz), Quaternion.identity);
+			 Instantiate(CellPrefab, Vector3(ix+GridPositionX,GridPositionY,iz+GridPositionZ), Quaternion.identity);
 			newCell.name = "("+ix+",0,"+iz+")";
 			newCell.parent = transform;
 			

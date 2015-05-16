@@ -67,7 +67,7 @@ Material:
       data:
         first:
           name: _WaveScale
-        second: .0289999992
+        second: .074000001
       data:
         first:
           name: _ReflDistort
