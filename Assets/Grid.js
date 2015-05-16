@@ -23,8 +23,6 @@ function Start () {
 }
 
 function CreateGrid(){ 
-	var maxXZ : int = Mathf.Max(GridSize.x, GridSize.z);
-	Camera.main.transform.position = Vector3(maxXZ/2f, maxXZ, maxXZ/8f);
 	var x : int = GridSize.x;
 	var z : int = GridSize.z;
 	GridArr = new Transform[x,z];
