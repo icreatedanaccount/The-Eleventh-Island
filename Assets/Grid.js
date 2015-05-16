@@ -18,7 +18,8 @@ function Start () {
 	CreateGrid();
 	SetStart(0,0);
 	GenerateMaze();
-	ClearWallEntranceAndExit(GridArr[0,5]);
+	ClearWallEntrance(GridArr[Mathf.Floor((GridSize.x)/2),GridSize.z-1]);
+	ClearWallExit(GridArr[Mathf.Floor((GridSize.x)/2),0]);
 }
 
 function CreateGrid(){ 
@@ -94,7 +95,7 @@ function FindNext(){
 			counter++;
 			if(counter > 4){ 
 				Set.RemoveAt(0);
-				previous.GetComponent.<Renderer>().material.color = Color.black;  
+				//previous.GetComponent.<Renderer>().material.color = Color.black;  
 				yield WaitForEndOfFrame();
 				return;
 			}  
@@ -106,7 +107,7 @@ function FindNext(){
 	
 	AddToSet(next); 
 	
-	DrawDebugLines(10, previous, next);
+	//DrawDebugLines(10, previous, next);
 	
 	ClearWalls(previous, next);
 	
@@ -132,10 +133,21 @@ function ClearWalls(p : Transform, n : Transform)
 }
 
 
-function ClearWallEntranceAndExit(p : Transform) 
+function ClearWallEntrance(p : Transform) 
 {
 	var hitInfo : RaycastHit[]; 
-	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(-1,0,0), 1);
+	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(0,0,1), 1);
+	for(var i : int = 0; i < hitInfo.length; i++) {
+		Destroy(hitInfo[i].transform.gameObject);
+	}
+
+	
+}
+
+function ClearWallExit(p : Transform) 
+{
+	var hitInfo : RaycastHit[]; 
+	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(0,0,-1), 1);
 	for(var i : int = 0; i < hitInfo.length; i++) {
 		Destroy(hitInfo[i].transform.gameObject);
 	}
