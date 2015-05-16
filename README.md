@@ -17,4 +17,4 @@ Add Rock Prefabs to environment (cliffs),
 ...
 
 ####BUG
-1- Fog is not rendering on water !
+1- Fog is not rendering on water ! - FIXED
