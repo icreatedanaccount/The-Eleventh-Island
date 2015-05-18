@@ -20,8 +20,8 @@ function Start () {
 	CreateGrid();
 	SetStart(0,0);
 	GenerateMaze();
-	//ClearWallEntrance(GridArr[Mathf.Floor((GridSize.x)/2),GridSize.z-1]);
-	//ClearWallExit(GridArr[Mathf.Floor((GridSize.x)/2),0]);
+	ClearWallEntrance(GridArr[Mathf.Floor((GridSize.x)/2),GridSize.z-1]);
+	ClearWallExit(GridArr[Mathf.Floor((GridSize.x)/2),0]);
 }
 
 function CreateGrid(){ 
@@ -110,7 +110,7 @@ function FindNext(){
 	
 	AddToSet(next); 
 	
-	DrawDebugLines(10, previous, next);
+	//DrawDebugLines(10, previous, next);
 	
 	ClearWalls(previous, next);
 	
@@ -129,7 +129,7 @@ function DrawDebugLines(lines :int, p : Transform, n : Transform)
 function ClearWalls(p : Transform, n : Transform) 
 {
 	var hitInfo : RaycastHit[]; 
-	hitInfo = Physics.RaycastAll(p.position + Vector3.up, n.position - p.position, 1);
+	hitInfo = Physics.RaycastAll(p.position + Vector3.up, n.position - p.position, CellSize);
 	for(var i : int = 0; i < hitInfo.length; i++) {
 		Destroy(hitInfo[i].transform.gameObject);
 	}
@@ -139,7 +139,7 @@ function ClearWalls(p : Transform, n : Transform)
 function ClearWallEntrance(p : Transform) 
 {
 	var hitInfo : RaycastHit[]; 
-	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(0,0,1), 1);
+	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(0,0,CellSize), CellSize);
 	for(var i : int = 0; i < hitInfo.length; i++) {
 		Destroy(hitInfo[i].transform.gameObject);
 	}
@@ -150,7 +150,7 @@ function ClearWallEntrance(p : Transform)
 function ClearWallExit(p : Transform) 
 {
 	var hitInfo : RaycastHit[]; 
-	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(0,0,-1), 1);
+	hitInfo = Physics.RaycastAll(p.position + Vector3.up,Vector3(0,0,-CellSize), CellSize);
 	for(var i : int = 0; i < hitInfo.length; i++) {
 		Destroy(hitInfo[i].transform.gameObject);
 	}
