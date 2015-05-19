@@ -5,11 +5,7 @@ Randomized maze generator developed from Unity
 IMPORTANT
 -------
 Setup Unity project folder here : http://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
-Assets currently in use : 
-
-
-0. Medieval Environment
-0. Standard Assets (Water4 + GlobalFog)
+Assets currently in use : Medieval Environment + Standard Assets (Water4 + GlobalFog).
 
 DONE
 -------
@@ -23,10 +19,11 @@ DONE
 0. RigidBody caracter
 0. Add camera to player
 0. Edit Grid script -> maze is generated on top of the plateau
+0. Resize Maze to fit environment and player's body (too small and walls to thin)
+0. Resize Cells to 6x6 units and enlarge walls
 
 TODO
 -------
-0. Resize Maze to fit environment and player's body (too small and walls to thin)
 0. Add Rock Prefabs to environment (cliffs)
 0. Add Start Menu
 0. Add Pause feature
@@ -35,10 +32,4 @@ TODO
 
 BUGS
 -------
-1- Fog is not rendering on water ! - FIXED
-
-
-
-
-Markups
--------
+1- Fog is not rendering on water -> FIXED
