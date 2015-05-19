@@ -1,4 +1,4 @@
-# The 11th Island
+# The Eleventh Island
 Is an adventure/exploration first-person game using randomized maze generators on different levels. 
 Developed with Unity 3D (5.0.1)
 
