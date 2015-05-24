@@ -51,7 +51,7 @@ function SetStart(x : int, z : int){
 	AddToSet(GridArr[x,z]);
 }
 function AddToSet(toAdd : Transform){
-	toAdd.GetComponent.<Renderer>().material.color = Color.gray;
+	//toAdd.GetComponent.<Renderer>().material.color = Color.gray;
 	var taScript : CellScript = toAdd.GetComponent("CellScript");
 	taScript.IsOpened = true;
 	Set.Unshift(toAdd);
