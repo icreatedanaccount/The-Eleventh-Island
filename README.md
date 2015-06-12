@@ -5,7 +5,6 @@ Developed with Unity 3D (5.1f3)
 
 IMPORTANT
 -------
-Setup Unity project folder here : http://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
 Assets currently in use : Medieval Environment + Standard Assets (Water4 + GlobalFog).
 
 CONVERTED PROJECT TO UNITY 5.1 !
