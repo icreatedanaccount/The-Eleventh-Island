@@ -361,6 +361,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &587093663
 Transform:
   m_ObjectHideFlags: 0
@@ -368,7 +369,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 587093658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.76999998, z: 0}
+  m_LocalPosition: {x: 0, y: 1.76999998, z: -.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 854320408}
@@ -533,6 +534,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 744763312}
   - 20: {fileID: 744763311}
+  - 45: {fileID: 744763313}
   m_Layer: 0
   m_Name: Water4Example (Advanced)ReflectionSceneCamera
   m_TagString: Untagged
@@ -572,18 +574,27 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &744763312
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 744763310}
-  m_LocalRotation: {x: .195108473, y: .0858567879, z: .0171493217, w: -.976866007}
-  m_LocalPosition: {x: 648.205444, y: -65.7302933, z: 704.906738}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -2.82129974e-07}
+  m_LocalPosition: {x: 648.030029, y: -44.2699966, z: 865.919983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!45 &744763313
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744763310}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &854320407
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +807,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &1774919385
 Transform:
   m_ObjectHideFlags: 0
