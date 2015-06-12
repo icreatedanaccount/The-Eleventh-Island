@@ -1,12 +1,14 @@
 # The Eleventh Island
 Is an adventure/exploration first-person game using randomized maze generators on different levels. 
-Developed with Unity 3D (5.0.1)
+Developed with Unity 3D (5.1f3)
 
 
 IMPORTANT
 -------
 Setup Unity project folder here : http://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
 Assets currently in use : Medieval Environment + Standard Assets (Water4 + GlobalFog).
+
+CONVERTED PROJECT TO UNITY 5.1 !
 
 DONE
 -------
@@ -22,6 +24,7 @@ DONE
 0. Edit Grid script -> maze is generated on top of the plateau
 0. Resize Maze to fit environment and player's body (too small and walls to thin)
 0. Resize Cells to 6x6 units and enlarge walls
+0. Added Oculus Integration for runtime and builds (CTRL-P to escape rift in game mode)
 
 TODO
 -------
