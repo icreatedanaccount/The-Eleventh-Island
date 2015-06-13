@@ -31,6 +31,7 @@ TODO
 0. Add Start Menu
 0. Add Pause feature
 0. Write level completion script (fade out to next scene when player steps on final platform)
+0. Fade in for Scene (https://www.youtube.com/watch?v=e1VAubRryic)
 ...
 
 BUGS
