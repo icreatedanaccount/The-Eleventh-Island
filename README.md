@@ -24,14 +24,15 @@ DONE
 0. Resize Maze to fit environment and player's body (too small and walls to thin)
 0. Resize Cells to 6x6 units and enlarge walls
 0. Added Oculus Integration for runtime and builds (CTRL-P to escape rift in game mode)
+0. Fade in for Scene (https://gist.github.com/NovaSurfer/5f14e9153e7a2a07d7c5)
+0. Add Rock Prefabs to environment (cliffs)
+0. Add Audio Source (Ambient Music)
 
 TODO
 -------
-0. Add Rock Prefabs to environment (cliffs)
 0. Add Start Menu
 0. Add Pause feature
 0. Write level completion script (fade out to next scene when player steps on final platform)
-0. Fade in for Scene (https://www.youtube.com/watch?v=e1VAubRryic)
 ...
 
 BUGS
