@@ -5,8 +5,8 @@ Temp/
 Obj/
 UnityGenerated/
 Library/
-Assets/*
-
+Assets/AncientStatuePack/
+Assets/AssetStoreTools*
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
