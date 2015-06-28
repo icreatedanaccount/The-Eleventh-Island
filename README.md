@@ -11,6 +11,8 @@ CONVERTED PROJECT TO UNITY 5.1 !
 
 UI BUILDER : https://www.assetstore.unity3d.com/en/#!/content/29757
 
+AncientStatues (Assets) were not added to repo for size issues... (See Dropbox)
+
 DONE
 -------
 
@@ -29,6 +31,12 @@ DONE
 0. Fade in for Scene (https://gist.github.com/NovaSurfer/5f14e9153e7a2a07d7c5)
 0. Add Rock Prefabs to environment (cliffs)
 0. Add Audio Source (Ambient Music)
+0. Saturation (Main Camera)
+0. Depth Of Field (Main Camera)
+0. Motion Blur (Main Camera)
+0. Vignettes (Main Camera)
+0. Bloom and Sparkles (Main Camera)
+0. STATUES ! (main entrance + end)
 
 TODO
 -------
