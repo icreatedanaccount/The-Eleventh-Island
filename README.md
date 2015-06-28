@@ -42,7 +42,7 @@ TODO
 -------
 0. Add Start Menu
 0. Add Pause feature
-0. Write level completion script (fade out to next scene when player steps on final platform)
+0. Write level completion script (fade out to next scene when player steps on final platform) https://www.youtube.com/watch?v=jtSVnV9iVk8
 ...
 
 BUGS
