@@ -7,9 +7,9 @@ IMPORTANT
 -------
 Assets currently in use : Medieval Environment + Standard Assets (Water4 + GlobalFog).
 
-CONVERTED PROJECT TO UNITY 5.1 !
+Using U-5.1
 
-UI BUILDER : https://www.assetstore.unity3d.com/en/#!/content/29757
+Ui Builder : https://www.assetstore.unity3d.com/en/#!/content/29757
 
 AncientStatues (Assets) were not added to repo for size issues... (See Dropbox)
 
@@ -36,13 +36,14 @@ DONE
 0. Motion Blur (Main Camera)
 0. Vignettes (Main Camera)
 0. Bloom and Sparkles (Main Camera)
-0. STATUES ! (main entrance + end)
+0. Statues (main entrance + end)
+0. Write level completion script (fade out to next scene when player steps on final platform) 
 
 TODO
 -------
 0. Add Start Menu
 0. Add Pause feature
-0. Write level completion script (fade out to next scene when player steps on final platform) https://www.youtube.com/watch?v=jtSVnV9iVk8
+0. Ending credits
 ...
 
 BUGS
