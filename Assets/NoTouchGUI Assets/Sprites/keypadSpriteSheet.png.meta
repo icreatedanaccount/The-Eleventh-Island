@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: e0ea704fe17a2f3468a5f45fbc4c4861
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: keypadSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_0_input
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 340
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 340
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_1_input
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 340
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 340
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_2_input
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 340
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 340
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_3_input
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 340
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_4_input
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 170
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 169
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_5_input
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 169
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 169
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_6_input
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 169
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 169
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_7_input
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 169
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_8_input
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_9_input
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keypadSpriteSheet_blank_input
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
