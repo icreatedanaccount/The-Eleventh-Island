@@ -128,10 +128,15 @@ public class BNG_ZapperAction : MonoBehaviour
     public Color originalColor;
     private float originalAlpha;
 
+	ScreenFader fadeScr;
+	public int SceneNumb;
+
     #endregion
 
 
     void Start () {
+
+		fadeScr = GameObject.FindObjectOfType<ScreenFader>();
 
         //get camera so we know what the rotation is if we're using it
         if(rotateObjectWithCamera || rotateTooltipAndTimerOnHover){
@@ -465,6 +470,13 @@ public class BNG_ZapperAction : MonoBehaviour
             }
         }
     }
+
+
+	//TO LAUNCH OTHER SCENES : PL
+	void launchScene(int a){
+
+			fadeScr.EndScene(SceneNumb);
+	}
 
     void scaleTimer(float time)
     {
