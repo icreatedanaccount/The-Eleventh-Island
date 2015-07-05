@@ -473,9 +473,9 @@ public class BNG_ZapperAction : MonoBehaviour
 
 
 	//TO LAUNCH OTHER SCENES : PL
-	void launchScene(int a){
-
-			fadeScr.EndScene(SceneNumb);
+	void launchScene(){
+		Debug.Log("END SCENE WAS CALLED!");
+		fadeScr.EndScene(SceneNumb);
 	}
 
     void scaleTimer(float time)

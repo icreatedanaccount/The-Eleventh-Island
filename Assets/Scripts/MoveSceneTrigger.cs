@@ -7,13 +7,12 @@ public class MoveSceneTrigger : MonoBehaviour {
 	public int SceneNumb = 1;
 	
 	void Start(){
-		fadeScr = GameObject.FindObjectOfType<ScreenFader>();
-		Debug.Log(fadeScr.ToString());
+		//fadeScr = GameObject.FindObjectOfType<ScreenFader>();
 	}
 	
 	void OnTriggerEnter(Collider col){
 		if(col.gameObject.tag == "Player"){
-			fadeScr.EndScene(SceneNumb);
+			//fadeScr.EndScene(SceneNumb);
 
 		}
 	}

@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class ScreenFader : MonoBehaviour
+public class BlockFdae : MonoBehaviour
 {
 	public Image FadeImg;
 	public float fadeSpeed = 1.5f;
@@ -67,11 +67,11 @@ public class ScreenFader : MonoBehaviour
 	{
 		// Make sure the RawImage is enabled.
 		FadeImg.enabled = true;
-
+		
 		if (!sceneEnding) {
 			sceneEnding = true;
 		}
-
+		
 		// Fading out music (using same speed as Black Fade Out 
 		if (music.volume > .1F) {
 			music.volume = Mathf.Lerp(music.volume, 0F,fadeSpeed * Time.deltaTime); 
@@ -86,7 +86,7 @@ public class ScreenFader : MonoBehaviour
 			Application.LoadLevel (SceneNumber);
 		}
 	}
-
+	
 	public void EndSceneDefault()
 	{
 		// Make sure the RawImage is enabled.
