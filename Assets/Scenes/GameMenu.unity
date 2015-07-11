@@ -225,11 +225,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 436f05d67dff6184cb855e808a9b3df6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Priority: 128
   DopplerLevel: 1
@@ -237,9 +237,9 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -903,6 +903,7 @@ GameObject:
   - 114: {fileID: 694426364}
   - 114: {fileID: 694426363}
   - 114: {fileID: 694426362}
+  - 81: {fileID: 694426361}
   m_Layer: 0
   m_Name: Camera_left
   m_TagString: MainCamera
@@ -987,6 +988,13 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
   m_StereoMirrorMode: 0
+--- !u!81 &694426361
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 694426355}
+  m_Enabled: 1
 --- !u!114 &694426362
 MonoBehaviour:
   m_ObjectHideFlags: 0
