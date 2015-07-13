@@ -3479,8 +3479,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 744763310}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -2.82129974e-07}
-  m_LocalPosition: {x: 640.140015, y: -50.2699966, z: 862.729004}
+  m_LocalRotation: {x: .0169273745, y: .718916476, z: .0175219625, w: -.694669425}
+  m_LocalPosition: {x: 646.912292, y: -49.88797, z: 862.711426}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4167,7 +4167,8 @@ MonoBehaviour:
   fade: 0
   changeLevelFade: 0
   levelToLoad: 
-  fadeSpeed: .200000003
+  fadeSpeed: .150000006
+  music: {fileID: 0}
 --- !u!4 &855727542 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 2}

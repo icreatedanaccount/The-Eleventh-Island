@@ -706,7 +706,8 @@ MonoBehaviour:
   fade: 0
   changeLevelFade: 0
   levelToLoad: 
-  fadeSpeed: 1.5
+  fadeSpeed: .150000006
+  music: {fileID: 0}
 --- !u!1001 &609433936
 Prefab:
   m_ObjectHideFlags: 0
@@ -1874,6 +1875,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 186150, guid: aff667aed47eed44bb5e1365442798c9, type: 2}
       propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2356262, guid: aff667aed47eed44bb5e1365442798c9, type: 2}
+      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -2134,8 +2139,8 @@ MonoBehaviour:
   timeToActivate: 2
   timeToDeactivate: .100000001
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
-  GameObjectToActivate: {fileID: 1916746101}
+  CallFunctionOnActivate: launchCredits
+  GameObjectToActivate: {fileID: 1565960335}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
@@ -2318,7 +2323,7 @@ Prefab:
       objectReference: {fileID: 1565960335}
     - target: {fileID: 21228628, guid: ccd677f1efb025243a7493a874f6ca59, type: 2}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 107874, guid: ccd677f1efb025243a7493a874f6ca59, type: 2}
       propertyPath: m_Layer

@@ -19,7 +19,7 @@ function OnTriggerEnter (other : Collider) {
 	if (other.tag == "Player") {
 		//OVRCameraController.GetComponent(fadeInOut).fade = true;
 			//this sets the name of the scene you want to load
-		OVRCameraController.GetComponent(fadeInOut).levelToLoad = "GameMenu";
+		OVRCameraController.GetComponent(fadeInOut).levelToLoad = "EndingCreds";
 		
 		//this tells it to fade and load a level
 		OVRCameraController.GetComponent(fadeInOut).changeLevelFade = true;

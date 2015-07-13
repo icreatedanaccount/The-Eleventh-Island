@@ -19,6 +19,8 @@ private var changingLevel : boolean;
 
 public var fadeSpeed = 1.5;
 
+public var music : AudioSource;
+
 
 function Start () {
 	
@@ -29,6 +31,8 @@ function Start () {
 	fadeTolightTimer = 0;
 	fade = false;
 	changingLevel = false;
+	
+	music = FindObjectOfType(AudioSource);
 
 }
 
@@ -45,7 +49,11 @@ function Update () {
 		fadeToDarkTimer += Time.deltaTime;
 		blackoutCubeL.GetComponent.<Renderer>().material.color = Color.Lerp(startColor, endColor, fadeSpeed *fadeToDarkTimer);
 		blackoutCubeR.GetComponent.<Renderer>().material.color = Color.Lerp(startColor, endColor, fadeSpeed *fadeToDarkTimer);
-
+		
+		// Fading out music (using same speed as Black Fade Out 
+		if (music.GetComponent.<AudioSource>().volume >= .1F) {
+			music.GetComponent.<AudioSource>().volume = Mathf.Lerp(music.GetComponent.<AudioSource>().volume, 0F,fadeSpeed * Time.deltaTime); 
+		}
 		
 		if (blackoutCubeL.GetComponent.<Renderer>().material.color == endColor && changingLevel == false) {
 			

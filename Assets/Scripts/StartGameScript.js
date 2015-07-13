@@ -36,5 +36,26 @@ function exitGame () {
 
 }
 
+//Basic function to exit to main...
+function exitToMainMenu () {
+	
+		OVRCameraController.GetComponent(fadeInOut).levelToLoad = "GameMenu";
+		
+		//this tells it to fade and load a level
+		OVRCameraController.GetComponent(fadeInOut).changeLevelFade = true;
+
+}
+
+
+//Basic function to launch credit screen...
+function launchCredits () {
+	
+		OVRCameraController.GetComponent(fadeInOut).levelToLoad = "EndingCreds";
+		
+		//this tells it to fade and load a level
+		OVRCameraController.GetComponent(fadeInOut).changeLevelFade = true;
+
+}
+
 
 
