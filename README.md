@@ -38,13 +38,12 @@ DONE
 0. Bloom and Sparkles (Main Camera)
 0. Statues (main entrance + end)
 0. Write level completion script (fade out to next scene when player steps on final platform) 
+0. Ending credits
+0. Add Start Menu
 
 TODO
 -------
-0. Add Start Menu
 0. Add Pause feature
-0. Ending credits
-...
 
 BUGS
 -------
