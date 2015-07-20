@@ -7,7 +7,6 @@
 var OVRCameraController : Transform;
 
 function Start () {
-
 }
 
 function Update () {

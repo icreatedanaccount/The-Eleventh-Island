@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StartGameScript
   - NoTouchButton
+  - PauseScreen
   layers:
   - Default
   - TransparentFX
